@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;      /* 100px o‘rniga 100% */
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.header {
+    border: 1px solid slategray;
+    
+}
+
+.navbar {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    
+}
+
+.navbar_logo {
+    display: flex; 
+    align-items: center;
+    flex: 1;
+}
+
+.navbar_collection{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    text-decoration: none;
+}
+
+.triple{
+    display: flex;
+    gap: 20px;
+}
+
